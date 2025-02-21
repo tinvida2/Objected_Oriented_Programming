@@ -1,8 +1,10 @@
+// 1) რიცხვის დარევერსება
+
 class Reverse_Num {
     constructor(number) {
         this.number = number;
     }
-
+    
     Reversal() {
         this.number = String(this.number).split("").map(Number).reverse().join("")
         return this.number
@@ -12,6 +14,8 @@ class Reverse_Num {
 let number_1 = new Reverse_Num(745)
 
 console.log(number_1.Reversal())
+
+// 2) სტრინგის დარევერსება
 
 class Reverse_Str {
     constructor(string) {
